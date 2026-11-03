@@ -1,0 +1,24 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/api-config.js
+  Cache-Control: no-cache, must-revalidate
+
+/*.html
+  Cache-Control: no-cache, must-revalidate
+
+/admin.js
+  Cache-Control: no-cache, must-revalidate
+
+/admin.css
+  Cache-Control: no-cache, must-revalidate
+
+/site.js
+  Cache-Control: no-cache, must-revalidate
+
+/customer.js
+  Cache-Control: no-cache, must-revalidate
+
+/customer.css
+  Cache-Control: no-cache, must-revalidate

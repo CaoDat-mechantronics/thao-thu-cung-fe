@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 116" role="img" aria-labelledby="title">
+<title id="title">Chú mèo mướp đang ngủ</title>
+<defs>
+ <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fffaf2"/><stop offset=".65" stop-color="#dad5d0"/><stop offset="1" stop-color="#bfb5b1"/></linearGradient>
+ <linearGradient id="body" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#bcb2ae"/><stop offset=".5" stop-color="#f8f4eb"/><stop offset="1" stop-color="#ada4a5"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-50%" width="170%" height="210%"><feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#513921" flood-opacity=".25"/></filter>
+</defs>
+<g filter="url(#shadow)" stroke="#6c5b5a" stroke-linejoin="round" stroke-linecap="round">
+ <!-- curled tail on the right -->
+ <path d="M149 59 C178 62 188 91 173 102 C162 109 154 96 162 89 C165 85 169 91 171 91 C175 77 162 71 145 75" fill="#99908c" stroke-width="5"/>
+ <path d="M164 81l12 3m-18 10 12 4" fill="none" stroke="#665b5a" stroke-width="5"/>
+ <!-- body horizontal -->
+ <path d="M64 45 C78 23 117 23 142 36 C156 44 160 60 153 73 C146 83 121 89 94 81 L73 79 C56 75 53 58 64 45Z" fill="url(#body)" stroke-width="3"/>
+ <path d="M107 31 C100 40 100 58 112 76m14-43c-10 15-7 25 2 43m13-35c-8 10-7 20-4 29" stroke="#817473" stroke-width="7" fill="none" opacity=".77"/>
+ <!-- rear leg -->
+ <path d="M129 71 C126 83 127 94 139 97 C151 100 161 91 158 83 C156 78 148 74 142 73Z" fill="#f4f0ea" stroke-width="3"/>
+ <path d="M141 92v4m8-6 2 4" stroke="#9e8887" stroke-width="2"/>
+ <!-- ears behind head -->
+ <path d="M31 44 32 12 56 32 M72 35 91 13 88 52" fill="#b2a4a1" stroke-width="3"/>
+ <path d="M38 37 38 22 50 35m29-1 8-11-2 17" fill="#e8a4a9" stroke="none"/>
+ <!-- head -->
+ <path d="M23 42 C28 25 44 20 61 26 C75 23 90 36 92 54 C94 72 78 83 55 83 C32 83 16 71 18 57Z" fill="url(#fur)" stroke-width="3"/>
+ <path d="M45 28 C38 34 36 41 36 47m19-20c-2 12-1 17 6 21m9-16c8 7 11 13 12 18" stroke="#8c807e" stroke-width="5" fill="none" opacity=".8"/>
+ <path d="M25 54 C22 70 34 79 52 78 C60 80 68 76 75 67 C66 58 59 52 51 54 C42 50 32 50 25 54Z" fill="#fffaf5" stroke="none"/>
+ <!-- paws hanging over front of button -->
+ <path d="M63 73 C60 84 61 99 72 101 C84 105 93 98 91 89 L89 76Z" fill="#fffaf4" stroke-width="3"/>
+ <path d="M91 75 C90 87 92 100 104 101 C116 102 119 92 115 85 L109 75Z" fill="#fffaf4" stroke-width="3"/>
+ <path d="M72 95v5m8-4 2 5m22-4v4m7-6 2 4" stroke="#ccaaa3" stroke-width="2"/>
+ <!-- sleeping face -->
+ <path d="M30 58 Q38 67 46 59 M62 59 Q70 66 78 57" fill="none" stroke="#544542" stroke-width="3"/>
+ <path d="M49 68 Q55 63 61 68 L56 73Z" fill="#ed9ca7" stroke="#8f6565" stroke-width="1.3"/>
+ <path d="M56 73q-4 5-9 0m9 0q4 5 9 0" fill="none" stroke="#725756" stroke-width="1.9"/>
+ <path d="M35 70 13 67m23 8-23 2m48 0 21 2m-19-7 19-6" stroke="#ede2d8" stroke-width="2"/>
+ <path d="M25 49l-8-5m12-3-8-7m63 15 8-5" stroke="#7c7170" stroke-width="3"/>
+</g>
+<g fill="#8a5d3c" font-family="Nunito, Arial, sans-serif" font-weight="900" font-size="21"><text x="118" y="18" transform="rotate(12 118 18)">z</text><text x="139" y="12" transform="rotate(16 139 12)">z</text><text x="157" y="20" transform="rotate(20 157 20)">Z</text></g>
+</svg>

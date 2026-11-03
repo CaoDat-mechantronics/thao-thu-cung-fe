@@ -1,0 +1,90 @@
+{
+  "cho-01": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Dog_food_in_a_bowl.jpg/640px-Dog_food_in_a_bowl.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dog_food_in_a_bowl.jpg",
+    "author": "James Redekop",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "title": "Dog food in a bowl.jpg"
+  },
+  "cho-04": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Dog-biscuit.jpg/640px-Dog-biscuit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dog-biscuit.jpg",
+    "author": "FiveRings",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "title": "Dog-biscuit.jpg"
+  },
+  "meo-01": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Cat_food_(pellets_and_water).jpg/640px-Cat_food_(pellets_and_water).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cat_food_(pellets_and_water).jpg",
+    "author": "Deavmi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "title": "Cat food (pellets and water).jpg"
+  },
+  "meo-02": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Wet_cat_food_01.jpg/640px-Wet_cat_food_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wet_cat_food_01.jpg",
+    "author": "Anne Jea",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "title": "Wet cat food 01.jpg"
+  },
+  "suc-khoe-01": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Shingoli_shampoo_Tick_n_flea_front.jpg/640px-Shingoli_shampoo_Tick_n_flea_front.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shingoli_shampoo_Tick_n_flea_front.jpg",
+    "author": "Shingoli",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "title": "Shingoli shampoo Tick n flea front.jpg"
+  },
+  "dinh-duong-01": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Pile_of_Kibble_Dog_Food_(51049786351).jpg/640px-Pile_of_Kibble_Dog_Food_(51049786351).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pile_of_Kibble_Dog_Food_(51049786351).jpg",
+    "author": "Megan Marrs",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "title": "Pile of Kibble Dog Food (51049786351).jpg"
+  },
+  "dinh-duong-02": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Dry_cat_food_01.jpg/640px-Dry_cat_food_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dry_cat_food_01.jpg",
+    "author": "Anne Jea",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "title": "Dry cat food 01.jpg"
+  },
+  "phu-kien-01": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Large_Dog_food_bowl.jpg/640px-Large_Dog_food_bowl.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Large_Dog_food_bowl.jpg",
+    "author": "Ohiopetwatch",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "title": "Large Dog food bowl.jpg"
+  },
+  "phu-kien-04": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cat_in_soft_side_cat_carrier.jpg/640px-Cat_in_soft_side_cat_carrier.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cat_in_soft_side_cat_carrier.jpg",
+    "author": "Tylervigen",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "title": "Cat in soft side cat carrier.jpg"
+  },
+  "bo-sung-01": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Dog_Treats_(51049057473).jpg/640px-Dog_Treats_(51049057473).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dog_Treats_(51049057473).jpg",
+    "author": "Megan Marrs",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "title": "Dog Treats (51049057473).jpg"
+  },
+  "bo-sung-03": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/A_Dog_biscuit.jpg/640px-A_Dog_biscuit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Dog_biscuit.jpg",
+    "author": "germanny",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "title": "A Dog biscuit.jpg"
+  }
+}
