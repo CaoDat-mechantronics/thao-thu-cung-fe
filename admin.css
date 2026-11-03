@@ -42,3 +42,18 @@
 .register-form h3{color:#7c4727;margin:0;font-size:21px}.register-help{font-size:12px;color:#916e51;line-height:1.5;margin:0}
 [hidden]{display:none!important}
 @media(max-width:480px){.auth-role-tab{font-size:12px;padding:12px 4px}}
+
+/* Trang đăng nhập: thu gọn chẩn đoán API theo mặc định, chỉ mở khi cần debug. */
+.auth-debug-details{margin-top:18px;padding-top:10px;border-top:1px dashed #eedec8}
+.auth-debug-details>summary{display:flex;align-items:center;gap:6px;list-style:none;width:fit-content;max-width:100%;padding:6px 3px;color:#977861;font-size:12px;font-weight:800;cursor:pointer;user-select:none}
+.auth-debug-details>summary::-webkit-details-marker{display:none}
+.auth-debug-details>summary::before{content:'⚙';font-size:15px;line-height:1}
+.auth-debug-details>summary:hover{color:#b85c20}
+.auth-debug-details>summary:focus-visible{outline:2px solid #e78f46;outline-offset:3px;border-radius:4px}
+.auth-debug-details[open]>summary{color:#b4652c}
+.auth-debug-caret{display:inline-block;transition:transform .18s ease}
+.auth-debug-details[open] .auth-debug-caret{transform:rotate(180deg)}
+.auth-debug-inner{margin:10px 0 0;padding:14px;border:1px solid #f0dcc3;background:#fffaf3;border-radius:14px}
+.auth-debug-inner .mode-notice{margin:0 0 10px}
+.auth-debug-inner .api-login-check{margin:4px 0}
+.auth-debug-inner .api-connection-result{margin-bottom:0}

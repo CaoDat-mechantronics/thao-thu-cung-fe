@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#fff8e9"><title>Đăng nhập và đăng ký | Thảo Thú Cưng</title><meta name="description" content="Đăng nhập khách hàng hoặc quản trị Thảo Thú Cưng."><link rel="icon" type="image/webp" href="assets/logo.webp"><link rel="stylesheet" href="site.css"><link rel="stylesheet" href="admin.css?v=20261103-roles"><script src="api-config.js?v=20261103-userfix2" defer></script><script type="module" src="admin.js?v=20261103-roles"></script></head>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#fff8e9"><title>Đăng nhập và đăng ký | Thảo Thú Cưng</title><meta name="description" content="Đăng nhập khách hàng hoặc quản trị Thảo Thú Cưng."><link rel="icon" type="image/webp" href="assets/logo.webp"><link rel="stylesheet" href="site.css?v=cartbadge-fix-20261103"><link rel="stylesheet" href="admin.css?v=20261103-debug-toggle"><script src="api-config.js?v=20261103-userfix2" defer></script><script type="module" src="admin.js?v=20261103-debug-toggle"></script></head>
 <body class="shop-auth" data-admin-page="login">
 <header class="management-header"><a href="index.html" class="management-logo"><img src="assets/logo.webp" width="439" height="80" alt="Thảo Thú Cưng"></a><a href="index.html" class="back-to-shop">← Về cửa hàng</a></header>
 <main class="auth-layout"><section class="auth-aside"><span class="eyebrow">🐾 CÙNG CHĂM SÓC CỬA HÀNG</span><h1>Xin chào,<br><em>người bạn của boss!</em></h1><p>Quản lý bài bán hàng, hình ảnh, giá và chương trình ưu đãi ngay trong một góc nhỏ dễ thương.</p><div class="auth-illustrations"><img src="assets/category-cho.webp" alt="Chú cún và bát thức ăn"><img src="assets/category-meo.webp" alt="Chú mèo và bát thức ăn"></div><div class="auth-quote">✦ Mỗi sản phẩm mới là một niềm vui dành cho các bé ✦</div></section>
@@ -10,9 +10,7 @@
   <button class="auth-role-tab" id="tab-customer" type="button" role="tab" aria-selected="true" aria-controls="login-form" data-role="customer">🐾 Khách hàng</button>
   <button class="auth-role-tab" id="tab-admin" type="button" role="tab" aria-selected="false" aria-controls="login-form" data-role="admin">🔐 Quản trị viên</button>
 </div>
-<div class="mode-notice" id="login-mode-notice" role="note">Đang kiểm tra kết nối...</div>
-<div class="api-login-check"><span id="api-endpoint" class="api-endpoint">API: chưa xác định</span><button type="button" id="check-api" class="api-check-button">Kiểm tra kết nối API</button></div>
-<div id="api-connection-result" class="api-connection-result" aria-live="polite"></div>
+
 <form id="login-form" class="auth-form"><label>Tên đăng nhập <input type="text" name="username" placeholder="Ví dụ: boss_yeu_meo" autocomplete="username" autocapitalize="none" spellcheck="false" minlength="3" maxlength="32" pattern="[A-Za-z][A-Za-z0-9_.-]{2,31}" required></label><label>Mật khẩu <span class="password-wrap"><input id="admin-password" type="password" name="password" placeholder="Nhập mật khẩu" autocomplete="current-password" minlength="12" required><button id="show-password" class="password-toggle" type="button" aria-label="Hiện mật khẩu">Hiện</button></span></label><button id="login-submit" type="submit" class="primary-admin-btn">Đăng nhập khách hàng →</button></form>
 <div class="form-message" id="login-message" role="status" aria-live="polite"></div>
 
@@ -28,6 +26,17 @@
 </form>
 <div id="register-message" class="form-message" role="status" aria-live="polite"></div>
 <p id="login-footnote" class="auth-footnote">Tài khoản khách hàng không có quyền quản trị. Chỉ chủ cửa hàng tạo tài khoản Admin bằng <code>create_user.py</code>.</p>
+<details id="login-debug-details" class="auth-debug-details">
+  <summary>Chẩn đoán kết nối API <span class="auth-debug-caret" aria-hidden="true">▾</span></summary>
+  <div class="auth-debug-inner">
+    <div class="mode-notice" id="login-mode-notice" role="note">Đang kiểm tra cấu hình...</div>
+    <div class="api-login-check">
+      <span id="api-endpoint" class="api-endpoint">API: chưa xác định</span>
+      <button type="button" id="check-api" class="api-check-button">Kiểm tra kết nối API</button>
+    </div>
+    <div id="api-connection-result" class="api-connection-result" aria-live="polite"></div>
+  </div>
+</details>
 </section></main>
 <footer class="management-footer">© 2026 Thảo Thú Cưng • <a href="index.html">Trang chủ</a> • <a href="tat-ca-san-pham.html">Sản phẩm</a></footer>
 </body></html>

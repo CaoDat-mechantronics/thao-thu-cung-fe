@@ -158,6 +158,16 @@ async function initLogin() {
   const password=qs('#admin-password');
   const tabs=[qs('#tab-customer'),qs('#tab-admin')];
   const params=new URLSearchParams(location.search);
+  // Chẩn đoán ẩn theo mặc định. Mở từ giao diện hoặc thêm ?debug=1 vào URL.
+  const debugPanel=qs('#login-debug-details');
+  if(debugPanel){
+    if(params.get('debug')==='1')debugPanel.open=true;
+    debugPanel.addEventListener('toggle',()=>{
+      if(debugPanel.open && apiReady && !qs('#api-connection-result')?.textContent?.trim()){
+        checkApiConnection();
+      }
+    });
+  }
   let activeRole=params.get('role')==='admin'?'admin':'customer';
   const setRole=(role)=>{
     activeRole=role==='admin'?'admin':'customer';
@@ -189,6 +199,7 @@ async function initLogin() {
   qs('#check-api').addEventListener('click',checkApiConnection);
   if(!apiReady){
     note(qs('#login-mode-notice'),'Chưa cấu hình URL Backend. Hãy sửa api-config.js.','error');
+    note(msg,'Hệ thống đăng nhập tạm thời chưa khả dụng. Mở “Chẩn đoán kết nối API” phía dưới để xem chi tiết.','error');
     submit.disabled=true;qs('#register-submit').disabled=true;return;
   }
   note(qs('#login-mode-notice'),'USERNAME + JWT • Thông tin tài khoản lưu trong Firestore.','live');
